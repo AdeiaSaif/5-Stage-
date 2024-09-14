@@ -1,0 +1,11 @@
+#Successful Tests
+#Tue Sep 10 14:33:27 PKT 2024
+f_stage.Core_tst=1725308650058
+f_stage.RegFile_tst=1725303404017
+f_stage.ALU_tst=1725306063449
+f_stage.fetch_tst=1725960807523
+f_stage.PC_tst=1725301055984
+f_stage.WriteBack_tst=1725308454960
+gcd.GCDSpec=1725298518097
+f_stage.PC4_tst=1725300226221
+f_stage.DataMem_tst=1725306902642

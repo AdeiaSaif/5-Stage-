@@ -1,0 +1,15 @@
+1725294803904:testOnly gcd.GCDSpec -- -DweiteVCD=1
+1725298422222:testOnly gcd.GCDSpec -- -DwriteVCD=1
+1725298476917:testOnly gcd.GCDSpec -- -DwriteVcd=1
+1725299828490:testOnly 5stage.PC4_tst -- -DwriteVcd=1
+1725299855778:testOnly f_stage.PC4_tst -- -DwriteVcd=1
+1725300484857:testOnly f_stage.PC_tst -- -DwriteVcd=1
+1725301200893:testOnly f_stage.RegFile_tst -- -DwriteVcd=1
+1725303674363:testOnly f_stage.ALU_tst -- -DwriteVcd=1
+1725306371165:testOnly f_stage.DataMem_tst -- -DwriteVcd=1
+1725307341245:testOnly f_stage.WriteBack_tst -- -DwriteVcd=1
+1725308536049:testOnly f_stage.Core_tst -- -DwriteVcd=1
+1725906067579:testOnly f_stages.fetch_tst -- -DwriteVcd=1
+1725909101157:clear
+1725909109762:testOnly f_stages.fetch_tst -- -DwriteVcd=1
+1725909119515:testOnly f_stage.fetch_tst -- -DwriteVcd=1

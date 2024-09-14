@@ -1,0 +1,7 @@
+[0m[[0m[31merror[0m] [0m[0m/home/adeia/5 Stage/src/main/scala/gcd/Core.scala:15:25: not found: type Imm[0m
+[0m[[0m[31merror[0m] [0m[0m    val imm= Module(new Imm)[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/adeia/5 Stage/src/main/scala/gcd/Core.scala:21:30: not found: type DataMem[0m
+[0m[[0m[31merror[0m] [0m[0m    val data_mem= Module(new DataMem)[0m
+[0m[[0m[31merror[0m] [0m[0m                             ^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m

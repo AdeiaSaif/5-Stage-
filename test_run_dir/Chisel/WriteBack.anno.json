@@ -1,0 +1,23 @@
+[
+  {
+    "class":"firrtl.stage.FirrtlFileAnnotation",
+    "file":"test_run_dir/Chisel/WriteBack.lo.fir"
+  },
+  {
+    "class":"firrtl.transforms.CombinationalPath",
+    "sink":"~WriteBack|WriteBack>io_out",
+    "sources":[
+      "~WriteBack|WriteBack>io_load_en",
+      "~WriteBack|WriteBack>io_mem_data",
+      "~WriteBack|WriteBack>io_alu_data"
+    ]
+  },
+  {
+    "class":"firrtl.EmitCircuitAnnotation",
+    "emitter":"firrtl.LowFirrtlEmitter"
+  },
+  {
+    "class":"firrtl.transforms.BlackBoxTargetDirAnno",
+    "targetDir":"test_run_dir/Chisel"
+  }
+]

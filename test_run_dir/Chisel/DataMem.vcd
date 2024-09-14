@@ -1,0 +1,62 @@
+$date
+2024-09-02T19:55+0000
+$end
+$version
+0.2
+$end
+$comment
+
+$end
+$timescale 1ns  $end
+$scope module DataMem $end
+ $var wire 32 ! io_address_out $end
+ $var wire 1 " io_store_en_out $end
+ $var wire 32 # io_data_in $end
+ $var wire 32 $ io_data_out $end
+ $var wire 1 % io_load_en $end
+ $var wire 32 & io_address $end
+ $var wire 1 ' clock $end
+ $var wire 1 ( io_load_en_out $end
+ $var wire 1 ) reset $end
+ $var wire 1 * io_store_en $end
+$upscope $end
+$enddefinitions $end
+$dumpvars
+0%
+0"
+b00000000000000000000000000000000 &
+b00000000000000000000000000000000 #
+0)
+0*
+0'
+b00000000000000000000000000000000 $
+b00000000000000000000000000000000 !
+0(
+$end
+#0
+1)
+#1
+1'
+#6
+b00000000000000000000000000000001 !
+1%
+b00000000000000000000000000000001 &
+b00000000000000000000000000001111 #
+0'
+b00000000000000000000000000001111 $
+1(
+0)
+#11
+1'
+#16
+b00000000000000000000000000000000 !
+0%
+b00000000000000000000000000000000 &
+b00000000000000000000000000000000 #
+0'
+b00000000000000000000000000000000 $
+0(
+#21
+1'
+#26
+0'

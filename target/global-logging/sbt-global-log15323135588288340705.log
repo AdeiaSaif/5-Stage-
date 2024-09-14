@@ -1,0 +1,14 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(testOnly f_stage.fetch_tst -- -DwriteVcd=1, Some(ebfe690a-fcb2-4d65-983e-f04e3b049d58), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / testOnly[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 17 Scala sources to /home/adeia/5 Stage/target/scala-2.12/classes ...[0m
+[0m[[0m[31merror[0m] [0m[0m/home/adeia/5 Stage/src/main/scala/gcd/Core.scala:15:25: not found: type Imm[0m
+[0m[[0m[31merror[0m] [0m[0m    val imm= Module(new Imm)[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/adeia/5 Stage/src/main/scala/gcd/Core.scala:21:30: not found: type DataMem[0m
+[0m[[0m[31merror[0m] [0m[0m    val data_mem= Module(new DataMem)[0m
+[0m[[0m[31merror[0m] [0m[0m                             ^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 7 s, completed Sep 10, 2024, 2:31:52 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
